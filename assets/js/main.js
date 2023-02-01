@@ -151,3 +151,6 @@ let main = (function () {
 $(document).ready(function () {
     main.init();
 });
+$(window).on('load', function () {
+    $('#loading').hide();
+})
